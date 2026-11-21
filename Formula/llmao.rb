@@ -1,15 +1,16 @@
 class Llmao < Formula
   desc "Launch a coding agent for natural-language requests typed into your shell"
   homepage "https://github.com/mquan/llmao"
-  url "https://github.com/mquan/llmao/releases/download/v0.3.0/llmao-v0.3.0.tar.gz"
-  version "0.3.0"
-  sha256 "d7f77b3a1055dd67acccd18335ac74a6a54af7b227f185bb884892f25b850992"
+  url "https://github.com/mquan/llmao/releases/download/v0.4.0/llmao-v0.4.0.tar.gz"
+  version "0.4.0"
+  sha256 "6eef87523cca096b3b257573af6814aa9253197c1e797de4c519a1f4fcbb3a97"
+  license "MIT"
 
   depends_on :macos
 
   def install
     (share/"llmao").install "llmao.plugin.zsh", "llmao.plugin.bash",
-                           "llmao.plugin.fish", "llmao-bridge.zsh", "llmao"
+                           "llmao.plugin.fish", "llmao-bridge.zsh", "llmao", "LICENSE"
     bin.install_symlink share/"llmao"/"llmao"
   end
 
