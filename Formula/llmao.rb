@@ -1,9 +1,9 @@
 class Llmao < Formula
   desc "Launch a coding agent for natural-language requests typed into your shell"
   homepage "https://github.com/mquan/llmao"
-  url "https://github.com/mquan/llmao/releases/download/v0.5.0/llmao-v0.5.0.tar.gz"
-  version "0.5.0"
-  sha256 "909141f4979abc2f3e2fc80738a9cdd18c27054b9c85790067747d0dd221c9ea"
+  url "https://github.com/mquan/llmao/releases/download/v0.6.0/llmao-v0.6.0.tar.gz"
+  version "0.6.0"
+  sha256 "130c864459c5b7f904c44c7fb57a2cd0b5a1cd790d8660bdd0c95b8ed20386f4"
   license "MIT"
 
   depends_on :macos
